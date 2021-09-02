@@ -1,0 +1,298 @@
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;
+    color: #24292e;
+    background-color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    --title-scale: 1;
+}
+@media only screen and (max-width: 750px) {
+    body {
+      --title-scale: 0.7;
+    }
+} 
+
+
+a{
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.color-1 {
+    color: rgba(43,48,56,1) !important; 
+}
+.section{
+    padding: 50px 0;
+    overflow: hidden;
+    justify-content: center;
+    max-width: 100vw;
+}
+.section-title{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    margin: 0 0 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.7em;
+    line-height: 1.3em;
+}
+.section-subtitle{
+    text-align: center;
+    margin: 0 0 50px;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.weight-text-m {
+    font-weight: 500 !important;
+}
+
+
+.header-section{
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+    font-family: inherit;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.bahikhata-container{
+    max-width: 1200px !important;
+}
+.header-section .bahikhata-container .img-logo{
+    width: 57px;
+    height: 57px;
+}
+.dropdown-arrow::after{
+    display: none !important;
+}
+.header-section .bahikhata-container .menu-left{
+    margin-right: 0 !important;
+    margin-left: 300px;
+}
+.right-menu a{
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #fff;
+    color: #0b6b90;
+    white-space: nowrap;
+}
+.right-menu{
+    margin-left: 32px;
+}
+.menu-left .nav-item{
+    margin-left:32px;
+}
+.menu-left .nav-item a{
+    color: rgb(70 50 50) !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin: 0;
+    cursor: pointer;
+    font-size: 1.1em;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+.menu-left .nav-item .nav-link:hover{
+    background-color: #fff !important;
+    color:rgb(141, 101, 101) !important;
+    text-decoration: underline;
+}
+.header-section .bahikhata-container .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.header-spacer-box{
+    height: 67px;
+}
+.moto-section{
+    font-weight: 400 !important;
+}
+.moto-section .moto-container h1{
+    font-size: 46px;
+    margin-bottom: 0;
+}
+.moto-section .moto-container p{
+    font-size: 20px;
+}
+.slider-section .bahikhata-container .carousel-item img{
+    width: 100%;
+    height: 769px;
+}
+.slider-section .bahikhata-container .carousel-control-next, 
+.slider-section .bahikhata-container .carousel-control-prev{
+    width: 5% !important;
+}
+.slider-section .bahikhata-container .carousel-control-prev{
+    left: 30px;
+}
+.slider-section .bahikhata-container .carousel-control-next{
+    right: 30px;
+}
+.case-studies-section .bahikhata-container  .cs-title{
+    font-weight: 600;
+}
+.case-studies-section .bahikhata-container .cs-subtitle{
+    font-weight: 400;
+}
+.case-studies-section .bahikhata-container .cs-card-img{
+    width: 100%;
+    height: 200px;
+}
+.case-studies-section .bahikhata-container .card-description{
+    font-size: 15px;
+    font-weight: 400;
+}
+/*--/services--*/
+.offer-service-section{  
+}
+.offer-service-w3ls{
+    background-color: rgba(246,247,247,1);
+}
+.offer-service-section .bahikhata-container .service-title{
+    font-weight: 600;
+}
+.service-in .card {
+    border: none;
+    background: none;
+}
+.service-in .card-title {
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 600;
+}
+.service-in p.card-text{
+    line-height:1.9em;
+    color: #fff;
+}
+.service-in .card i {
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    color: #ffc107;
+}
+.feature-title{
+    margin: 30px 0 10px;
+    font-weight: 400;
+    font-size: 1.3em !important;
+}
+.feature-description {
+    overflow: auto;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    white-space: pre-line;
+}
+/*--//services--*/
+
+/*-- Insights --*/
+.insights-section .bahikhata-container .insights-title {
+    font-weight: 600;
+}
+.insights-card-img{
+    width: 100%;
+    height: 200px;
+}
+
+/*--// Insights --*/
+
+/*-- getStarted --*/
+.getStarted-section{
+    background-color: #fff;
+}
+.getStarted-section .bahikhata-container .getStarted-title{
+    font-weight: 600px;
+}
+.getStarted-section .bahikhata-container .getStarted-body{
+    margin-top: 20px;
+}
+.getStarted-section .bahikhata-container .getStarted-body a{
+    border-radius: 25px;
+    background-color: #fff;
+    white-space: nowrap;
+    padding: 6px 16px;
+    box-shadow: inset 0 0 0 1px;
+    backface-visibility: hidden;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+.getStarted-section .bahikhata-container .getStarted-body a:first-child{
+    color: #fff;
+    background-color: rgba(43,48,56,1);
+    box-shadow: none;
+}
+.getStarted-section .bahikhata-container .getStarted-body a{
+    margin: 5px;
+}
+.getStarted-section .bahikhata-container .getStarted-body a:last-child:hover{
+    box-shadow: inset 0 0 0 3px;
+    color: rgba(43,48,56,1);
+}
+/*--// getStarted --*/
+
+/*-- footer --*/
+.footer-section {
+    background-color: #fafafa;
+    padding: 15px 0;
+}
+.footer-section .footer{
+    min-height: 54px;
+    padding-top: 15px;
+}
+.footer-col-1 ul, .footer-col-2 ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-col-1 ul li, .footer-col-2 ul li {
+    display: block;
+    margin: .4em 0 0;
+}
+.footer-col-1 ul li {
+    color: #bbb;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 2em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: inline-block !important;
+}
+.footer-col-1 ul li a {
+    margin-right: 8px;
+    padding: 6px 0;
+}
+.footer-col-1 ul li a span{
+    font-size: 26px;
+}
+.footer-col-links h5{
+    margin-bottom: 12px !important;
+}
+.footer-col-links ul{
+    list-style: none;
+}
+.footer-col-links ul li{
+    padding-left: 3px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.footer-col-links ul li a{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+/*--// footer --*/
+
+/*-- css to overwrite css of ghost --*/
+.menu-left li+li {
+    margin-top: 0;
+}
+/*--// css to overwrite css of ghost --*/

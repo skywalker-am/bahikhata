@@ -1,0 +1,90 @@
+{{#if isSecondary}}
+    <div class="footer py-lg-3">
+        <div class="row footer-grids">
+            <div class="col-lg-6 col-md-6 footer-grid text-left">
+                <div class="footer-col-1">
+                    <p>© 2021 All rights Reserved - Bahi Khata Inc.</p>
+                    <ul class="social-page mt-lg-0 mt-3">
+                        <li class="mr-1"><a href="https://twitter.com/bahikhata" class="color-1" target="_blank" ><span class="fab fa-twitter"></span></a></li>
+                        <li class="mx-1"><a href="https://www.linkedin.com/company/18652536/" class="color-1" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                        <li class="mx-1"><a href="https://www.facebook.com/thebahikhata/" class="color-1" target="_blank"><span class="fab fa-facebook-square"></span></a></li>
+                        <li class="mx-1"><a href="https://www.youtube.com/channel/UCc1ic8SVq93GdeI6MutJR2A/" class="color-1" target="_blank"><span class="fab fa-youtube"></span></a></li>
+                        <li class="mx-1"><a href="mailto: admin@bahikhata.org" class="color-1" target="_blank"><span class="fas fa-envelope"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-5 mt-lg-0 mt-sm-5 mt-4 footer-grid text-left">
+                <div class="footer-col-links">
+                    <h5 class="mb-4"> Company </h5>
+                    <ul>
+                        <li><a href="{{@site.url}}" class="color-1">Home</a></li>
+                        <li><a href="#" class="color-1">About Us</a></li>
+                        <li><a href="{{@site.url}}/contact/" class="color-1">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-5 mt-lg-0 mt-sm-5 mt-4 footer-grid text-left">
+                <div class="footer-col-links">
+                    <h5 class="mb-4">Partners</h5>
+                    <ul>
+                        <li><a href="#" class="color-1">Land Owners</a></li>
+                        <li><a href="#" class="color-1">Franchise</a></li>
+                        <li><a href="#" class="color-1">Investors</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-5 mt-lg-0 mt-sm-5 mt-4 footer-grid text-left">
+                <div class="footer-col-links">
+                    <h5 class="mb-4">Legal</h5>
+                    <ul>
+                        <li><a href="#" class="color-1">Terms of Services</a></li>
+                        <li><a href="#" class="color-1">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+{{else}}
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="{{@site.url}}">
+            {{#if @site.logo}}
+                <img class="img-fluid img-logo" src="{{@site.logo}}" alt="{{@site.title}}" />
+            {{else}}
+                {{@site.title}}
+            {{/if}}    
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto float-right menu-left">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{@site.url}}/startup/">Startup Banking <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle dropdown-arrow" href="ease-of-doing-business/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ease of Doing Business
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Digital Infrastructure</a>
+                        <a class="dropdown-item" href="#">Healthcare</a>
+                        <a class="dropdown-item" href="#">Education</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{@site.url}}/insights/">Insights</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{@site.url}}/contact/">Contact Us</a>
+                </li>
+            </ul>
+
+            <div class="right-menu">
+                <a href="{{@site.url}}/download-app/" class="btn btn-info" role="button">Download App</a>
+            </div>
+        </div>
+    </nav>
+{{/if}}
