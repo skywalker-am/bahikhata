@@ -32,6 +32,9 @@ ul {
 .color-1 {
     color: rgba(43,48,56,1) !important; 
 }
+.color-2{
+    color: #fff !important; 
+}
 .section{
     padding: 50px 0;
     overflow: hidden;
@@ -146,6 +149,13 @@ ul {
 }
 .case-studies-section .bahikhata-container .cs-subtitle{
     font-weight: 400;
+}
+.case-studies-section .bahikhata-container .card-deck a{
+    color: inherit;
+}
+.case-studies-section .bahikhata-container .card-deck a:hover{
+    color: inherit;
+    text-decoration: none;
 }
 .case-studies-section .bahikhata-container .cs-card-img{
     width: 100%;
@@ -296,3 +306,231 @@ ul {
     margin-top: 0;
 }
 /*--// css to overwrite css of ghost --*/
+
+/*-- Conatct Us page -- */
+.contact-us .form-section .bahikhata-container .form-container .section-title{
+    font-weight: 600;
+}
+.contact-us .form-section .bahikhata-container .form-container .form-subtitle{
+    font-weight: 400;
+}
+.contact-us .form-section .bahikhata-container .form-container .form-contact{
+    max-width: 570px;
+    margin: 0 auto;
+}
+/*--// Conatct Us page -- */
+
+/*-- startup banking page -- */
+.startupImage-section{
+    background-color:rgba(44,48,56,1);
+    padding:0;
+} 
+.startupImage-section .startup-container{
+    padding: 0;
+}
+.startupImage-section .startup-container .startup-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.startup-title-section{
+    background-color:rgba(44,48,56,1);
+    padding-bottom:60px;
+    padding-top:60px;
+}
+.startup-title-section .startup-title{
+    font-weight: 600 !important;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.startup-title-section .startup-subtitle{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    line-height: 39px;
+}
+.section-startup-feature, .section-startup-advisory{
+    background-color:#fff;
+    padding: 0 !important;
+}
+.section-startup-feature .sf-inner, .section-startup-advisory .sf-inner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    min-height: 500px;
+}
+.section-startup-feature .sf-inner .sf-left img{
+    width: 410px;
+    height: 500px;
+}
+.section-startup-feature .sf-inner .sf-half, .section-startup-advisory .sf-inner .sf-half{
+    padding: 16px 10px;
+    align-items: center;
+}   
+.section-startup-feature .sf-inner .sf-left, .section-startup-advisory .sf-inner .sf-left{
+    text-align: right;
+    padding-right: 10px;
+}
+.section-startup-feature .sf-inner .sf-right, .section-startup-advisory .sf-inner .sf-right{
+    text-align: left;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 32px;
+}
+.section-startup-feature .sf-inner .sf-right .sf-right-header .sf-right-title, 
+.conn-left-title, .section-startup-advisory .sf-inner .sf-right .sf-right-header .sf-right-title{
+    font-weight: 600;
+}
+.section-startup-feature .sf-inner .sf-right .sf-right-header .sf-right-subtitle,
+.conn-left-subtitle, .section-startup-advisory .sf-inner .sf-right .sf-right-header .sf-right-subtitle{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.sf-point, .conn-point{
+    margin-bottom: 20px;
+}
+.iconWrapper {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.section-startup-feature .sf-inner .sf-right .sf-description .sf-point .iconWrapper, .conn-point .iconWrapper,
+.section-startup-advisory .sf-inner .sf-right .sf-description .sf-point .iconWrapper  {
+    margin-right: 15px;
+    margin-top: 4px;
+    width: 70px;
+    height: 70px;
+}
+
+/* .section-startup-feature .sf-inner .sf-right .sf-description .sf-point .iconWrapper.firstWrapper{}*/
+
+.iconWrapper .backdrop {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.section-startup-feature .sf-inner .sf-right .sf-description .sf-point .iconWrapper .backdrop.dc-backdrop, .backdrop.tu-backdrop,
+.section-startup-advisory .sf-inner .sf-right .sf-description .sf-point .iconWrapper .backdrop.dc-backdrop{
+    width: 70px;
+    height: 70px;
+}
+.section-startup-feature .sf-inner .sf-right .sf-description .sf-point .iconWrapper .icon, .conn-point .iconWrapper .icon,
+.section-startup-advisory .sf-inner .sf-right .sf-description .sf-point .iconWrapper .icon{
+    position: absolute;
+    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-startup-feature .sf-point .iconWrapper .icon.dc-icon,
+.icon.tu-icon,
+.section-startup-advisory .sf-point .iconWrapper .icon.dc-icon{
+    max-width: 62%;
+    max-height: 60%;
+    top: 18px;
+    left: 14px;
+}
+.section-startup-feature .sf-point .sf-point-content, 
+.conn-point .conn-point-content,
+.section-startup-advisory .sf-point .sf-point-content
+ {
+    max-width: 80%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.section-startup-feature .sf-point-title, .conn-point-title,
+.section-startup-advisory .sf-point-title{
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 500;
+    padding-top: 3px;
+}
+.section-startup-feature .sf-point .sf-point-content .sf-point-description, .conn-point-description,
+.section-startup-advisory .sf-point .sf-point-content .sf-point-description{
+    font-size: 1.15em;
+}
+.section-startup-connection{
+    background-color: #fafafa;
+    padding: 0!important;
+}
+.conn-inner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    min-height: 500px;
+}
+.conn-half{
+    padding: 0px;
+    align-items: center;
+}   
+.conn-right img{
+    width: 583px;
+    height: 484px;
+}
+.conn-left{
+    margin-top: 125px;
+    text-align: left;
+}
+.icon.tu-icon {
+    top: 13px;
+    left: 13px;
+}
+.section-startup-advisory .sf-inner .sf-left img{
+    width: 583px;
+    height: 346px;
+}
+.section-wealth-mgt{
+    background-color: #fff;
+}
+/*-- //startup banking page-- */
+
+/*-- digital infrastructure page-- */
+.digital-infra-outer{
+    background-color: rgba(44,48,56,1);
+}
+.section-digital-infra-title{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.digital-infra-title{
+    font-weight: 600 !important;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.digital-infra-subtitle{
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    line-height: 39px;
+}
+.section-digital-infra-image {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+.digital-infra-image{
+    width: 100%;
+    height: 855px;
+}
+.section-digital-infra-connectivity{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.connectivity-inner{
+    padding: 50px 0;
+    width: 100%;
+}
+.connectivity-half{
+    padding: 0px;
+    align-items: center;
+} 
+.connectivity-left{
+    margin-top: 125px;
+    text-align: left;
+}
+.connectivity-left-content{
+    max-width: 350px;
+    margin-right: 50px;
+}
+/*--// digital infrastructure page-- */
